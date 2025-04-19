@@ -249,10 +249,10 @@ export function createSettingsHtml() {
                 <div class="flex-container flexGap5">
                     <label for="${Constants.ID_ICON_TYPE_DROPDOWN}">图标类型:</label>
                     <select id="${Constants.ID_ICON_TYPE_DROPDOWN}" class="text_pole transparent-select" style="width:120px;">
-                        <option value="${Constants.ICON_TYPES.ROCKET}">火箭图标</option>
-                        <option value="${Constants.ICON_TYPES.COMMENT}">对话图标</option>
-                        <option value="${Constants.ICON_TYPES.STAR}">星星图标</option>
-                        <option value="${Constants.ICON_TYPES.BOLT}">闪电图标</option>
+                        <option value="${Constants.ICON_TYPES.ROCKET}">小火箭</option>
+                        <option value="${Constants.ICON_TYPES.COMMENT}">调色盘</option>
+                        <option value="${Constants.ICON_TYPES.STAR}">星月</option>
+                        <option value="${Constants.ICON_TYPES.BOLT}">五芒星</option>
                         <option value="${Constants.ICON_TYPES.CUSTOM}">自定义图标</option>
                     </select>
                     <button id="quick-reply-preview-icon-button" class="menu_button" style="width:auto; padding:0 8px;">
